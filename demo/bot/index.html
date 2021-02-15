@@ -18,7 +18,7 @@
     
     
       
-        <title>Кошелек - Автопродажи в телеграме</title>
+        <title>Разделы бота - Автопродажи в телеграме</title>
       
     
     
@@ -29,7 +29,7 @@
         
           
           
-          <meta name="theme-color" content="#000000">
+          <meta name="theme-color" content="#009485">
         
       
     
@@ -38,8 +38,8 @@
       
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>:root{--md-text-font-family:"Roboto",;--md-code-font-family:"Roboto Mono",}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,400i,700%7CFira+Code&display=fallback">
+        <style>:root{--md-text-font-family:"Ubuntu",;--md-code-font-family:"Fira Code",}</style>
       
     
     
@@ -56,7 +56,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="preference" data-md-color-primary="black" data-md-color-accent="teal">
+    <body dir="ltr" data-md-color-scheme="preference" data-md-color-primary="teal" data-md-color-accent="red">
       
         <script>matchMedia("(prefers-color-scheme: dark)").matches&&document.body.setAttribute("data-md-color-scheme","slate")</script>
       
@@ -66,6 +66,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Перейти к содержанию
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -94,7 +99,7 @@
         <div class="md-header-nav__topic">
           <span class="md-ellipsis">
             
-              Кошелек
+              Разделы бота
             
           </span>
         </div>
@@ -183,7 +188,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../catalog/" class="md-tabs__link md-tabs__link--active">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
         Обзор функций
       </a>
     </li>
@@ -295,8 +300,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../promo/functions/" class="md-nav__link">
-        Функции
+      <a href="../../promo/tech/" class="md-nav__link">
+        Техническая Информация
       </a>
     </li>
   
@@ -307,8 +312,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../promo/tech/" class="md-nav__link">
-        Техническая Информация
+      <a href="../../promo/functions/" class="md-nav__link">
+        Функции
       </a>
     </li>
   
@@ -350,30 +355,6 @@
             
   
   
-  
-    <li class="md-nav__item">
-      <a href="../catalog/" class="md-nav__link">
-        Каталог
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../purchases/" class="md-nav__link">
-        Покупки
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
     
   
   
@@ -382,9 +363,84 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Разделы бота
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
-        Кошелек
+        Разделы бота
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    Каталог
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    Покупки
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    Кошелек
+  </a>
+  
+    <nav class="md-nav" aria-label="Кошелек">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#qiwi" class="md-nav__link">
+    Qiwi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    Купон
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    История платежей
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    О магазине
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -395,8 +451,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
-        О магазине
+      <a href="../admin/" class="md-nav__link">
+        Админка
       </a>
     </li>
   
@@ -482,15 +538,113 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    Каталог
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    Покупки
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    Кошелек
+  </a>
+  
+    <nav class="md-nav" aria-label="Кошелек">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#qiwi" class="md-nav__link">
+    Qiwi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    Купон
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    История платежей
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    О магазине
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
               
                 
                 
-                  <h1>Кошелек</h1>
+                  <h1>Разделы бота</h1>
                 
-                
+                <h2 id="_1">Каталог<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>Каталог - главная страница в боте. Выбрав этот раздел, ваш покупатель сможет удобно "ходить" по категориям, читать описания, смотреть цены, и конечно же покупать их :)</p>
+<p><img align="center" alt="Catalog" src="https://media.giphy.com/media/4LQXmQ83TzbUK9EGL8/giphy.gif" /></p>
+<h2 id="_2">Покупки<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>Покупки - это раздел, где отображаются все покупки вашего пользователя за все время. Если покупка, является файлом - каждый раз при нажатии на покупку - бот отдает этот файл, если текстом - в описании покупки будет этот текст.</p>
+<p><img align="center" alt="Purchases" src="https://media.giphy.com/media/oRaGQj6b57YbCPcvlY/giphy.gif" /></p>
+<h2 id="_3">Кошелек<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<p>В разделе кошелек, ваш покупатель сможет посмотреть текущий баланс, пополнить его и посмотреть историю пополнений за все время. </p>
+<p><img align="center" alt="Wallet" src="https://media.giphy.com/media/KfDICZWMNrSAotRyed/giphy.gif" /></p>
+<h3 id="qiwi">Qiwi<a class="headerlink" href="#qiwi" title="Permanent link">&para;</a></h3>
+<p>Выбрав этот пункт, юзеру будет создан счет с уникальным комментарием. Оплатив любую сумму с этим комментарием и нажав проверить оплату - юзер пополнит счет на эту сумму.
+В случае, если платеж не отправлен, а кнопка "Проверить оплату" нажата - всплывает уведомление о том, что платеж не найден.</p>
+<p><img align="center" alt="Wallet-Qiwi" src="https://media.giphy.com/media/XmfQYik2NAXTIhkSdm/giphy.gif" /></p>
+<h3 id="_4">Купон<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<p>Подробнее о создании купонах - смотрите в специальном разделе.</p>
+<p><img align="center" alt="Wallet-Cupon" src="https://media.giphy.com/media/oRaGQj6b57YbCPcvlY/giphy.gif" /></p>
+<h3 id="_5">История платежей<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<p>Здесь все просто - отображение всех успешных пополнений юзером. Показывает дату, сумму и спопособ пополнения. </p>
+<p><img align="center" alt="Wallet-History" src="https://media.giphy.com/media/oRaGQj6b57YbCPcvlY/giphy.gif" /></p>
+<h2 id="_6">О магазине<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<p>Простая страница с ЛЮБОЙ информацией которую вы хотите написать. Например, можете оставить контакты на тех-поддержку, разместить правила покупок, рекламу, реферальную ссылку на что-нибудь или все вместе :)</p>
+<p><img align="center" alt="About-Page" src="https://media.giphy.com/media/60ZtCZ3fHgBiGyIpsg/giphy.gif" /></p>
                 
               
               
@@ -509,7 +663,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../purchases/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../../promo/functions/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -518,19 +672,19 @@
                 <span class="md-footer-nav__direction">
                   Назад
                 </span>
-                Покупки
+                Функции
               </div>
             </div>
           </a>
         
         
-          <a href="../about/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../admin/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Вперед
                 </span>
-                О магазине
+                Админка
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">
@@ -549,10 +703,6 @@
             Copyright &copy; 2020 - 2021 @elnoproblemo
           </div>
         
-        Made with
-        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-          Material for MkDocs
-        </a>
       </div>
       
   <div class="md-footer-social">
